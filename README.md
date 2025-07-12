@@ -1,73 +1,41 @@
-# Welcome to your Lovable project
+# 🌱 GreenNova Invest Hub
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/0cdfe47f-5ef4-4c33-8c00-356179c7c324
+GreenNova Invest Hub is a modern web application that bridges eco-conscious investors with renewable energy project owners. It enables seamless fundraising, investment tracking, and clean UI experiences for both investors and startups focused on sustainability.
 
-## How can I edit this code?
+**🔗 Live Project**: [https://greennova-invest-hub.vercel.app]) <!-- Replace with your actual deployed URL -->
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0cdfe47f-5ef4-4c33-8c00-356179c7c324) and start prompting.
+This project is built with the following technologies:
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React** (via **Vite**) – Lightning-fast SPA development
+- **TypeScript** – Static typing for scalable code
+- **Tailwind CSS** – Utility-first styling
+- **ShadCN UI** – Accessible and beautiful UI components
+- **Supabase** – Backend-as-a-service for database and authentication
+- **Stripe & RainbowKit** – For fiat and crypto payments respectively
+- **Framer Motion** – Smooth animations and transitions
+- **React Query** – Powerful data fetching and caching
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ How to Run Locally
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Make sure you have **Node.js** and **npm** installed. [Install Node.js via nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/abhinavsurya1/greennova-invest-hub.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 2: Navigate to the project directory
+cd greennova-invest-hub
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 3: Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0cdfe47f-5ef4-4c33-8c00-356179c7c324) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
